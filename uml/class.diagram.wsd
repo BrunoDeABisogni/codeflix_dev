@@ -1,0 +1,17 @@
+@startuml class Category
+
+entity Category
+    Category : uuid id 
+    Category :  string name
+    Category :  string description
+    Category :  bollean is_active
+    Category :  datetime created_at
+
+    Category : create()
+    Category : update()
+    Category : delete()
+    Category : activate()
+    Category : deactivate()
+   
+@enduml
+
